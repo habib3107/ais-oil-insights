@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Custom variants for our Oil & Gas theme
+        hero: "bg-white text-primary hover:bg-white/90 shadow-lg font-semibold",
+        energy: "bg-energy text-white hover:bg-energy/90 shadow-lg",
+        tech: "bg-tech text-white hover:bg-tech/90 shadow-lg",
+        warning: "bg-warning text-white hover:bg-warning/90 shadow-lg",
       },
       size: {
         default: "h-10 px-4 py-2",
